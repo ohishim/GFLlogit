@@ -1,5 +1,5 @@
 
-#This is required by "GFLlogit.R"
+#This is required to execute "GFLlogit.R"
 
 #argument: 
 #  m: natural value
@@ -10,6 +10,8 @@
 
 #output:
 #  x.hat: the minimizer
+
+library(magrittr)
 
 GFLlogit1 <- function(m, y, lambda, w, z){
   

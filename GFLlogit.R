@@ -1,5 +1,5 @@
 
-#GFL for logistic regression
+#Coordinate optimization for GFL logistic regression
 
 #arguments:
 #  m: vector of the numbers of trials
@@ -12,12 +12,15 @@
 #  weight: penalty weights; "NULL" or list
 #  conv: "coef" or "pll"
 #    A convergence judgement is based on "conv"
+#  progress: If TRUE, progress is displayed
 
 #output:
 #  mu.hat: vector of estimates
 #  lam.hat: the optimal tuning parameter
 #  pll: the minimum of the objective function
 #  time: runtime (s)
+
+library(magrittr)
 
 GFLlogit <- function(m, y, adjCD, lambda=NULL, lambda.type=NULL, weight=NULL, conv="coef", progress=FALSE){
   
