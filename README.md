@@ -8,10 +8,11 @@ The goal of GFLlogit is to ...
 
 ## Installation
 
-You can install the development version of GFLlogit like so:
+You can install the development version of GFLlogit from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("ohishim/GFLlogit")
 ```
 
 ## Example
@@ -22,4 +23,3 @@ This is a basic example which shows you how to solve a common problem:
 library(GFLlogit)
 ## basic example code
 ```
-
