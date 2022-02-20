@@ -1,12 +1,12 @@
 #' @title test
-#' @description \code{test} This is test function.
+#' @description \code{test.func} This is test function.
 #'
 #' @param n the number
 #' @return testobject
 #' @export
 #' @examples
-#' #test(n)
+#' #test.func(n)
 
-test <- function(n){
+test.func <- function(n){
   return(rep(testobject, n))
 }
