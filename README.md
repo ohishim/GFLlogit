@@ -4,8 +4,6 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of GFLlogit is to ...
-
 ## Installation
 
 You can install the development version of GFLlogit from [GitHub](https://github.com/) with:
