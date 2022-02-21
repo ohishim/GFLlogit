@@ -100,6 +100,6 @@ exdata <- data.frame(
 )
 
 #---   output
-adj <- adjD
+adj <- data.frame(adjD)
 usethis::use_data(exdata, overwrite = TRUE)
 usethis::use_data(adj, overwrite = TRUE)
