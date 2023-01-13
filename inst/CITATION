@@ -3,14 +3,14 @@ citHeader("To cite GFLlogit in publications use:")
 citEntry(
   entry    = "Manual",
   title    = "GFLlogit: Coordinate optimization for GFL logistic regression",
-  author   = "Mineaki Ohishi",
+  author   = "Ohishi M.",
   year     = 2021,
-  note     = "R package version 0.1.0",
+  note     = "R package version 1.0.0",
   url      = "https://github.com/ohishim/GFLlogit",
   textVersion = paste("
-    Mineaki Ohishi (2021).
+    Ohishi, M. (2021).
     GFLlogit: Coordinate optimization for GFL logistic regression.
-    R package version 0.1.0.
+    R package version 1.0.0.
     https://github.com/ohishim/GFLlogit
   ")
 )

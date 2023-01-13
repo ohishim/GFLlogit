@@ -1,8 +1,14 @@
 
-# GFLlogit
+# GFLlogit (v1.0.0)
 
 <!-- badges: start -->
 <!-- badges: end -->
+
+**cite this package**:  
+Ohishi, M. (2021).
+GFLlogit: Coordinate optimization for GFL logistic regression.
+R package version 1.0.0.
+https://github.com/ohishim/GFLlogit
 
 ## Installation
 
@@ -35,3 +41,10 @@ res <- GFLlogit(m, y, adjCD)
 
 The output `res` takes a form of a list object.
 For example, you can obtain GFL estimates by `res$mu.hat`.
+
+## Reference
+
+1. Ohishi, M., Yamamura, M. & Yanagihara, H. (2022).
+Coordinate descent algorithm of generalized fused Lasso logistic regression for multivariate trend filtering.
+*Jpn. J. Stat. Data Sci.*, **5**, 535-551.
+doi: [10.1007/s42081-022-00162-2](https://doi.org/10.1007/s42081-022-00162-2)

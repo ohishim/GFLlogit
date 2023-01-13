@@ -1,9 +1,9 @@
 Package: GFLlogit
 Type: Package
 Title: Coordinate descent algorithm of generalized fused Lasso logistic regression for multivariate trend filtering
-Version: 0.1.0
+Version: 1.0.0
 Author: Mineaki Ohishi
-Maintainer: Mineaki Ohishi <mineaki-ohishi@hiroshima-u.ac.jp>
+Maintainer: Mineaki Ohishi <mineaki.ohishi.a4@tohoku.ac.jp>
 Description: This package executes a coordinate descent algorithm to calculate estimates for generalized fused Lasso logistic regression.
 License: MIT + file LICENSE
 Encoding: UTF-8
