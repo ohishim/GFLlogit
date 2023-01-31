@@ -12,7 +12,7 @@ https://github.com/ohishim/GFLlogit
 
 ## Installation
 
-You can install the development version of GFLlogit from [GitHub](https://github.com/) with:
+You can install the R package GFLlogit from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
